@@ -1,18 +1,87 @@
-.h1
+h1
 {
-    propriete2: valeur2;
-    propriete3: valeur3;
+    font-size:50px;
 }
 
-.h2
+h1, h4
 {
-    propriete1: valeur1;
-    propriete2: valeur2;
-    propriete3: valeur3;
-    propriete4: valeur4;
+    text-align:left;
+    padding:10px 30px;
 }
 
-.rounded-circle
+h2, h3
 {
-    border:blue;
+    font-weight:bold;
+    font-size:30px;
 }
+
+h2
+{
+    text-align:center;
+    color:#00BCD4;
+}
+
+h3
+{
+    padding:20px 10px;
+}
+
+h4
+{
+    font-size:28px;
+}
+
+section
+{
+    padding:0px 0px !important;
+}
+
+#gauche, #icone
+{
+    padding:10px 40px;
+}
+
+#titre-gauche
+{
+    background-color:#424242;
+    padding:0px 0px;
+}
+
+#titre-droite
+{
+    padding:10px 20px !important;
+}
+
+#icone
+{
+    text-align:center;
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 768px)
+{
+	h2
+	{
+	   font-size:16px !important;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 992px)
+{
+	h2
+	{
+	   font-size:24px !important;
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)
+{
+	h2
+	{
+    	   color:#FFFFFF;
+	}
+}
+
