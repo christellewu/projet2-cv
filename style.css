@@ -23,7 +23,7 @@ h2
 
 h3
 {
-    padding:20px 10px;
+    padding:10px 10px;
 }
 
 h4
@@ -34,6 +34,11 @@ h4
 section
 {
     padding:0px 0px !important;
+}
+
+hr 
+{
+  border-top: 2px solid #00BCD4;
 }
 
 #gauche, #icone
@@ -49,7 +54,12 @@ section
 
 #titre-droite
 {
-    padding:10px 20px !important;
+    padding:10px 30px !important;
+}
+
+#titre
+{
+    vertical-align: middle;
 }
 
 #icone
@@ -57,6 +67,17 @@ section
     text-align:center;
 }
 
+#icone-droite
+{
+    text-align:left;
+    padding:10px 30px;
+    color:#00BCD4;
+}
+
+#contenu
+{
+    padding:20px 0px;
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 768px)
