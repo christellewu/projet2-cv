@@ -9,156 +9,153 @@
 	<script src="https://kit.fontawesome.com/5a4a895a5c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container page">
       <div class="row">
-        <section class="col-lg-4 col-md-4 col-sm-1" style="background-color:#00BCD4">
+        <aside class="bandeau col-lg-4 col-md-4 col-sm-12">
 <!-- Bandeau gauche -->
 <!-- Photo -->
-		<div class="row">
-			<p><br>
-				<img class="rounded-circle mx-auto d-block" src="images/profil.jpg" width="60%" />
-			</p>
-		</div>
+			<div class="row photo">
+				<p>
+					<img class="rounded-circle mx-auto d-block shadow" src="images/profil.jpg" width="60%" alt="photo-profil" />
+				</p>
+			</div>
 <!-- Contact -->
-		<div id="titre-gauche"><h2>CONTACT</h2></div>
-		<div class="row" id="gauche">
-			<p><i class="fas fa-map-marked-alt"></i>&nbsp;12 rue Neuve 75021 Paris<br>
-			<br><i class="fas fa-phone-alt"></i>&nbsp;0612345678<br>
-			<br><i class="fas fa-envelope"></i>&nbsp;christelle@mail.com<br>
-			<br><i class="fab fa-linkedin"></i>&nbsp;<a href="https://www.linkedin.com/in/christelle-wu">www.linkedin.com/in/christelle-wu</a><br>
-			<br><i class="fas fa-globe"></i>&nbsp;<a href="http://monsiteweb.com">monsiteweb.com</a></p>
-		</div>
-<!-- A propos -->
-		<div id="titre-gauche"><h2>COMP&Eacute;TENCES</h2></div>
-		<div class="row" id="gauche"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.</p></div>
-<!-- Loisirs -->
-		<div id="titre-gauche"><h2>LOISIRS</h2></div>
-		<div class="row" id="icone">
-		<p><br><br><br><br>
-			<div class="col">
-				<span class="fa-stack fa-2x" style="vertical-align: top; color:#424242;">
-  					<i class="far fa-circle fa-stack-2x"></i>
-  					<i class="fas fa-volleyball-ball fa-stack-1x"></i>
-				</span>
-				<span class="fa-stack fa-2x" style="vertical-align: top; color:#424242;">
-  					<i class="far fa-circle fa-stack-2x"></i>
-  					<i class="fas fa-music fa-1x"></i>
-  				</span>
-  				<span class="fa-stack fa-2x" style="vertical-align: top; color:#424242;">
-  					<i class="far fa-circle fa-stack-2x"></i>
-  					<i class="fas fa-film fa-1x"></i>
-  				</span>
-  			</div>
-		</p>
-		</div>
-        </section>
-        <section class="col-lg-8 col-md-8 col-sm-2" id="titre-droite">
+			<div class="titre-gauche"><h6>CONTACT</h6></div>
+			<div class="row gauche">
+				<div class="col-12 contact">Adresse<br>12 rue Neuve 75021 Paris</div>
+				<div class="col-12 contact">Téléphone<br>06 12 34 56 78</div>
+				<div class="col-12 contact">Email<br><a href="mailto:christelle@mail.com" target="_blank">christelle@mail.com</a></div>
+				<div class="col-12 contact">Site Web<br><a href="http://monsiteweb.com" target="_blank">monsiteweb.com</a></div>
+			</div>
+	<!-- A propos -->
+			<div class="titre-gauche"><h6>&Agrave; PROPOS DE MOI</h6></div>
+			<div class="row gauche">Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
+	<!-- Loisirs -->
+			<div class="titre-gauche"><h6>LOISIRS</h6></div>
+			<div class="icone-loisir">
+				
+					<span class="fa-stack fa-2x loisir">
+	  					<i class="far fa-circle fa-stack-2x"></i>
+	  					<i class="fas fa-volleyball-ball fa-stack-1x"></i>
+					</span>
+					<span class="fa-stack fa-2x loisir">
+	  					<i class="far fa-circle fa-stack-2x"></i>
+	  					<i class="fas fa-music fa-1x"></i>
+	  				</span>
+	  				<span class="fa-stack fa-2x loisir">
+	  					<i class="far fa-circle fa-stack-2x"></i>
+	  					<i class="fas fa-film fa-1x"></i>
+	  				</span>
+	  			
+			</div>
+        </aside>
+        <main class="col-lg-8 col-md-8 col-sm-2 titre-droite">
 <!-- Bandeau droite -->
-		<p><h1>Christelle Wu</h1></p>
+			<header class="nom"><h1> <span class="famille">WU</span></h1></header>
 
 <!-- Emploi (animation) -->
-		<p><h4>Développeuse Web</h4></p>
+			<div class="dev col-12"><h2>Développeuse Web</h2></div>
 
 <!-- Formation -->
-		<div class="row" id="titre">
-			<div class="col-3" id="icone-droite">
-				<span><i class="fas fa-graduation-cap fa-2x"></i></span>
+			<div class="row titre">
+				<div class="col-2 icone-droite">
+					<span><i class="fas fa-graduation-cap fa-2x"></i></span>
+				</div>
+				<div class="col-10">
+					<h3>FORMATION</h3>
+				</div>
 			</div>
-			<div>
-				<h3>FORMATION</h3>
+			<div class="contenu">
+				<div class="point-droite">
+					<span><i class="far fa-dot-circle"></i></span>
+				</div>
+				<div class="date-lieu">
+					<span class="date">2020</span>
+					<span class="lieu">Paris</span>
+				</div>
+				<div class="texte">
+					<h4>Openclassrooms</h4>
+					<h5>Developpeur Web</h5>
+					Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.
+				</div>
 			</div>
-		</div>
-		<hr>
-		<div class="row" id="contenu">
-			<div class="col-1" id="icone-droite">
-				<span><i class="far fa-dot-circle"></i></span>
+			<div class="contenu">
+				<div class="point-droite">
+					<span><i class="fas fa-circle fa-xs"></i></span>
+				</div>
+				<div class="date-lieu">
+					<span class="date">1997 - 2000</span>
+					<span class="lieu">Paris</span>
+				</div>
+				<div class="texte">
+					<h4>Institut IMAC</h4>
+					<h5>Ingénieur Informatique</h5>
+					Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.
+				</div>
 			</div>
-			<div class="col-3">
-				2020<br>Paris
+	<!-- Experience -->
+			<div class="row titre">
+				<div class="col-2 icone-droite">
+					<span><i class="fas fa-briefcase fa-2x"></i></span>
+				</div>
+				<div class="col-10">
+					<h3>EXP&Eacute;RIENCE PROFESSIONNELLE</h3>
+				</div>
 			</div>
-			<div class="col-5">
-				Openclassrooms<br>
-				Developpeur Web<br>
-				Formation
+			<div class="contenu">
+				<div class="point-droite">
+					<span><i class="far fa-dot-circle"></i></span>
+				</div>
+				<div class="date-lieu">
+					2017 - Février 2020<br>Vélizy Villacoublay
+				</div>
+				<div class="texte">
+					<h4>Thalès</h4>
+					<h5>Ingénieur Qualification</h5>
+					Dune Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.
+				</div>
 			</div>
-		</div>
-		<div class="row" id="contenu">
-			<div class="col-1" id="icone-droite">
-				<span><i class="far fa-dot-circle"></i></span>
+			<div class="contenu">
+				<div class="point-droite">
+					<span><i class="fas fa-circle fa-xs"></i></span>
+				</div>
+				<div class="date-lieu">
+					2013 - 2016<br>Guyancourt
+				</div>
+				<div class="texte">
+					<h4>Orange</h4>
+					<h5>Architecte fonctionnel</h5>
+					Karma Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.
+				</div>
 			</div>
-			<div class="col-3">
-				1997 - 2000<br>Paris
+			<div class="contenu">
+				<div class="point-droite">
+					<span><i class="fas fa-circle fa-xs"></i></span>
+				</div>
+				<div class="date-lieu">
+					2009 - 2013<br>Guyancourt
+				</div>
+				<div class="texte">
+					<h4>Orange</h4>
+					<h5>Responsable Validation</h5>
+					Karma Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.
+				</div>
 			</div>
-			<div class="col-5">
-				Institut IMAC<br>
-				Ingénieur Informatique<br>
-				Formation
+			<div class="contenu">
+				<div class="point-droite">
+					<span><i class="fas fa-circle fa-xs"></i></span>
+				</div>
+				<div class="date-lieu">
+					2002 - 2009<br>Vélizy Villacoublay
+				</div>
+				<div class="texte">
+					<h4>Bouygues Télécom</h4>
+					<h5>Ingénieur Qualification, MOE</h5>
+					Qualification MOE, Chef de projet Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.
+				</div>
 			</div>
-		</div>
-<!-- Experience -->
-		<div class="row">
-			<div class="col-2" id="icone-droite">
-				<span><i class="fas fa-briefcase fa-2x"></i></span>
-			</div>
-			<div>
-				<h3>EXP&Eacute;RIENCE PROFESSIONNELLE</h3>
-			</div>
-		</div>
-		<hr size="5" color="#00BCD4">
-		<div class="row" id="contenu">
-			<div class="col-1" id="icone-droite">
-				<span><i class="far fa-dot-circle"></i></span>
-			</div>
-			<div class="col-3">
-				2017 - Février 2020<br>Vélizy Villacoublay
-			</div>
-			<div class="col-5">
-				Thalès<br>
-				Ingénieur Qualification<br>
-				Dune
-			</div>
-		</div>
-		<div class="row" id="contenu">
-			<div class="col-1" id="icone-droite">
-				<span><i class="far fa-dot-circle"></i></span>
-			</div>
-			<div class="col-3">
-				2013 - 2016<br>Guyancourt
-			</div>
-			<div class="col-5">
-				Orange<br>
-				Architecte fonctionnel<br>
-				Karma
-			</div>
-		</div>
-		<div class="row" id="contenu">
-			<div class="col-1" id="icone-droite">
-				<span><i class="far fa-dot-circle"></i></span>
-			</div>
-			<div class="col-3">
-				2009 - 2013<br>Guyancourt
-			</div>
-			<div class="col-5">
-				Orange<br>
-				Responsable Validation<br>
-				Karma
-			</div>
-		</div>
-		<div class="row" id="contenu">
-			<div class="col-1" id="icone-droite">
-				<span><i class="far fa-dot-circle"></i></span>
-			</div>
-			<div class="col-3">
-				2002 - 2009<br>Vélizy Villacoublay
-			</div>
-			<div class="col-5">
-				Bouygus Télécom<br>
-				Ingénieur Qualification, MOE<br>
-				Qualification MOE, Chef de projet
-			</div>
-		</div>
 <!-- Certifications -->
-		</section>
+		</main>
       </div>
     </div>
   </body>

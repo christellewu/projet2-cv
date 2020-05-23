@@ -1,108 +1,213 @@
 h1
 {
-    font-size:50px;
-}
-
-h1, h4
-{
-    text-align:left;
-    padding:10px 30px;
-}
-
-h2, h3
-{
-    font-weight:bold;
-    font-size:30px;
+    text-align: left;
+    padding: 10px 0px;
+    font-size: 50px;
 }
 
 h2
 {
-    text-align:center;
-    color:#00BCD4;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
 }
 
 h3
 {
-    padding:10px 10px;
+    padding: 10px 0px;
+}
+
+h3, h4
+{
+    text-align: left;
+}
+
+h3, h6
+{
+    font-weight: bold;
+    font-size: 26px;
 }
 
 h4
 {
-    font-size:28px;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 0px 0px;
 }
 
-section
+h5
 {
-    padding:0px 0px !important;
+    font-weight: bold;
+    font-size: 16px;
 }
 
-hr 
+h6
 {
-  border-top: 2px solid #00BCD4;
+    font-weight: bold;
+    text-align: center;
+    color: #00BCD4;
 }
 
-#gauche, #icone
+.page
 {
-    padding:10px 40px;
+    padding: 0px 0px;
 }
 
-#titre-gauche
+.bandeau
 {
-    background-color:#424242;
-    padding:0px 0px;
+    background-color: #00BCD4;
+    padding: 0px 0px;
 }
 
-#titre-droite
+.titre-gauche
 {
-    padding:10px 30px !important;
+    background-color: #424242;
+    padding: 0px 0px;
 }
 
-#titre
+.photo
 {
-    vertical-align: middle;
+    padding: 40px 40px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
-#icone
+.shadow
 {
-    text-align:center;
+    filter: drop-shadow(0px 0px 5px black);
 }
 
-#icone-droite
+.gauche, .icone
 {
-    text-align:left;
-    padding:10px 30px;
-    color:#00BCD4;
+    padding: 20px 40px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
-#contenu
+.contact
 {
-    padding:20px 0px;
+    padding: 10px 10px;
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (max-width: 768px)
+.loisir
 {
-	h2
-	{
-	   font-size:16px !important;
-	}
+    vertical-align: top;
+    color: #424242;
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 992px)
+.icone-loisir
 {
-	h2
-	{
-	   font-size:24px !important;
-	}
+    text-align: center;
+    padding: 20px 0px;
+    width: 100%;
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px)
+.titre-droite
 {
-	h2
-	{
-    	   color:#FFFFFF;
-	}
+    padding: 10px 30px !important;
 }
+
+.nom
+{
+    padding: 10px 10px;
+}
+
+.famille::before
+{
+    content: "CHRISTELLE ";
+    color: #00BCD4;
+}
+
+.dev
+{
+    margin-bottom: 30px;
+}
+
+.dev::after
+{
+    content: " ";
+    display: block;
+    width: 10px;
+    background-color: #00BCD4;
+    height: 1px;
+    padding: 0px 30px;
+}
+
+.titre
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titre::after
+{
+    content: " ";
+    display: block;
+    width: 100%;
+    background-color: #00BCD4;
+    height: 1px;
+    padding: 0px 30px;
+}
+
+.contenu
+{
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icone-droite
+{
+    text-align: left;
+    padding: 10px 30px;
+    color: #00BCD4;
+    flex: 10%;
+}
+
+.point-droite
+{
+    text-align: left;
+    padding: 10px 10px;
+    color: #00BCD4;
+    flex: 2%;
+}
+
+.date-lieu
+{
+    flex: 20%;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+.lieu
+{
+    display: block;
+}
+
+.texte
+{
+    padding: 10px 10px;
+    flex: 60%;
+}
+
+@media screen and (max-width: 992px)
+{
+    h1
+    {
+        font-size: 35px;
+    }
+
+    .date-lieu
+    {
+        flex: 80%;
+    }
+    
+    .texte
+    {
+        flex-direction: column;
+        flex: 100%;
+    }
+}
+
+
 
