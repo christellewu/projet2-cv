@@ -32,7 +32,7 @@ h4
 {
     font-weight: bold;
     font-size: 22px;
-    padding: 0px 0px;
+    padding: 0px;
 }
 
 h5
@@ -50,7 +50,14 @@ h6
 
 .page
 {
-    padding: 0px 0px;
+    padding: 0px;
+}
+
+.row
+{
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bandeau
@@ -67,9 +74,7 @@ h6
 
 .photo
 {
-    padding: 40px 40px;
-    margin-right: 0px;
-    margin-left: 0px;
+    padding: 40px;
 }
 
 .shadow
@@ -79,14 +84,12 @@ h6
 
 .gauche, .icone
 {
-    padding: 20px 40px;
-    margin-right: 0px;
-    margin-left: 0px;
+    padding: 50px;
 }
 
 .contact
 {
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 .lien
@@ -96,25 +99,19 @@ h6
 
 .loisir
 {
-    vertical-align: top;
+    
     color: #424242;
 }
 
 .icone-loisir
 {
     text-align: center;
-    padding: 20px 0px;
-    width: 100%;
-}
-
-.titre-droite
-{
-    padding: 10px 30px !important;
+    padding: 20px;
 }
 
 .nom
 {
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 .famille::before
@@ -142,6 +139,8 @@ h6
 {
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
 }
 
 .titre::after
@@ -164,7 +163,7 @@ h6
 .icone-droite
 {
     text-align: left;
-    padding: 10px 30px;
+    padding: 10px 20px;
     color: #00BCD4;
     flex: 10%;
 }
@@ -172,7 +171,7 @@ h6
 .point-droite
 {
     text-align: left;
-    padding: 10px 10px;
+    padding: 10px;
     color: #00BCD4;
     flex: 2%;
 }
@@ -180,7 +179,7 @@ h6
 .date-lieu
 {
     flex: 20%;
-    padding: 10px 10px;
+    padding: 10px;
     font-weight: bold;
 }
 
@@ -191,7 +190,7 @@ h6
 
 .texte
 {
-    padding: 10px 10px;
+    padding: 10px;
     flex: 60%;
 }
 
@@ -199,7 +198,17 @@ h6
 {
     h1
     {
-        font-size: 35px;
+        font-size: 32px;
+    }
+
+    h3
+    {
+        font-size: 23px;
+    }
+
+    h6
+    {
+        font-size: 23px;
     }
 
     .date-lieu
